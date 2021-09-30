@@ -218,14 +218,14 @@ a
 {
     text-decoration: none;
 
-    color: #5e72e4;
+    color: white;
     background-color: transparent;
 }
 a:hover
 {
     text-decoration: none; 
 
-    color: #233dd2;
+    color: #b2dfdb;
 }
 
 a:not([href])
@@ -20420,10 +20420,6 @@ textarea[resize='horizontal']
 {
     font-size: 3.25rem;
 }
-.icon-lg + .icon-text
-{
-    width: calc(100% - $icon-size-lg - 1);
-}
 
 .icon-sm
 {
@@ -20435,10 +20431,6 @@ textarea[resize='horizontal']
 {
     font-size: 1.25rem;
 }
-.icon-sm + .icon-text
-{
-    width: calc(100% - $icon-size-sm - 1);
-}
 
 .icon-xs
 {
@@ -20449,10 +20441,6 @@ textarea[resize='horizontal']
 .icon-xs svg
 {
     font-size: .5rem;
-}
-.icon-xs + .icon-text
-{
-    width: calc(100% - $icon-size-xs - 1);
 }
 
 .icon-shape
@@ -23765,12 +23753,12 @@ textarea[resize='horizontal']
 
 .table .thead-dark th
 {
-    color: #4d7bca; 
+    color: white !important; 
     background-color: #1c345d;
 }
 .table .thead-dark th a
 {
-    color: #4d7bca;
+    color: white !important;
 }
 
 .table .thead-light th
